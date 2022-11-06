@@ -13,14 +13,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
   font-family: 'verona_serial-regular';
 }
 
 
 .main {
 	flex: 1 1 auto;
-	margin-top: 10vmin;
+	margin: auto;
+	display: flex;
+	align-items: center;
 }
 .App-logo {
  
@@ -61,8 +62,9 @@
 
 
 .footer-content{
-	margin: 10px auto;
+	margin: 20px auto;
 	display: flex;
+	align-items: center;
 }
 
 
@@ -75,15 +77,34 @@
 }
 
 .footer-content-logo-description{
-	font-size: 22px;
+	font-size: 18px;
 	margin-left: 20px;
 }
 
+
+.description-open-construction {
+	font-size: 18px;
+
+}
 .description-open-bar{
 	font-size: 18px;
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+   margin: 20px auto;
 }
 
+.description-vine {
+	justify-content: center;
+   align-items: center;
+	font-size: 18px;
+	
+
+}
+
+.description-vine{
+	margin-left: 10px;
+}
 .description-open-hours{
 	display: flex;
 }

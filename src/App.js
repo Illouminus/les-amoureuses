@@ -2,6 +2,7 @@ import logo from './logo.png';
 import complet from './logo_complet.png'
 import location from './img/icons/location.png'
 import open from './img/icons/open-time.png'
+import vine from './img/icons/vine.png'
 import './App.css';
 
 
@@ -11,10 +12,11 @@ function App() {
     <div className="App">
       <header className="App-header">
 		  <img src={complet} className="complet" alt="logo" />
-		  <div className='description-open-bar'>
+		  <div className='description-open-construction'>
 			<p>Notre site est en cours de construction  <br /></p>
 			<p className='description-open-bar-seeyou'>À bientôt !</p>
 		  </div>
+		  
       </header>
 		<main className='main'>
 			<div className='description-work'>
